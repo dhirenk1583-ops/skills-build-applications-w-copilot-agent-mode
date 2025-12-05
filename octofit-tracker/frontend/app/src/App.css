@@ -1,0 +1,138 @@
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f4f9 0%, #e0e7ff 100%);
+  color: #22223b;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 18px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #5f6fff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.App-link:hover {
+  color: #3b3b98;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: linear-gradient(90deg, #5f6fff 0%, #7f53ac 100%) !important;
+  box-shadow: 0 2px 8px rgba(95, 111, 255, 0.08);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link {
+  color: #e0e7ff !important;
+  font-weight: 500;
+  margin-right: 10px;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffd166 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #3b3b98;
+  font-weight: 700;
+}
+
+/* Buttons */
+button, .btn {
+  background: linear-gradient(90deg, #7f53ac 0%, #5f6fff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5em 1.2em;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(95, 111, 255, 0.08);
+  transition: background 0.2s, color 0.2s;
+}
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #5f6fff 0%, #7f53ac 100%);
+  color: #ffd166;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(95, 111, 255, 0.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+th, td {
+  padding: 0.75em 1em;
+  text-align: left;
+}
+th {
+  background: #5f6fff;
+  color: #fff;
+  font-weight: 700;
+}
+tr:nth-child(even) {
+  background: #f0f4f9;
+}
+tr:hover {
+  background: #e0e7ff;
+}
+
+/* Links */
+a {
+  color: #5f6fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #ffd166;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
